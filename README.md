@@ -16,13 +16,11 @@ docker info
 docker build -t jobparser .
 
 #run :  
-
 docker run --rm -v .\in:/in -v .\out:/out jobparser -d /in > .\out\result.txt  
 
 
 
 #Get results into ./out  
-
 
 cd ./out
 & Explorer .
