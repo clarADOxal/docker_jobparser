@@ -1,14 +1,14 @@
 mkdir ./in  
 mkdir ./out  
-put your *.job into ./in  
+#put your *.job into ./in    
 
-#Start Docker Desktop
+#Start Docker Desktop  
 & "C:\Program Files\Docker\Docker\Docker Desktop.exe"
 
-#Check 
+#Check  
 docker info
 
-#Build Docker
+#Build Docker  
 docker build -t jobparser .
 
 #run :  
